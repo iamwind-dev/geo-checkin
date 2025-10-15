@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "geo-checkin",
+    "slug": "geo-checkin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.geocheckin.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Ứng dụng cần quyền truy cập vị trí để ghi nhận check-in của bạn."
+      }
+    },
+    "android": {
+      "package": "com.geocheckin.app",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "plugins": [
+      "expo-location"
+    ]
+  }
+}
